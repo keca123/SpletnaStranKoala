@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body {
+    margin: 0 auto;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    background-image: url(https://images.pexels.com/photos/4250572/pexels-photo-4250572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    
+}
+li {
+    display: inline;
+}
+.glavninaslov {
+    font-family: 'Amatic SC', cursive;
+    
+}
+.header {
+    text-align: center;
+    background-color: #d7f5e5;
+    padding: 2px;
+    text-shadow: 2px 2px 5px white;
+    font-size: 20px;
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #57967f;
+}
+
+.article {
+    margin: 0 auto;
+    max-width: 50em;
+    background-color: #f4f4f4;
+    color: #555555;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 30px;  
+}
+
+b {
+    color: black;
+}
+.articlenaslov {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 400px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.aside1 {
+  text-align: center;
+  width: 20%;
+  margin-right: 7px;
+  margin-top: 18px;
+  padding: 5px;
+  float: right;
+  font-style: italic;
+  background-color: #57967f;
+  font-size: 15px;
+  color: white;
+  
+}
+.asideimg {
+    width: 95%;
+    margin: 5px;
+    border: 1px solid #777;
+}
+.asideimg2 {
+    width: 95%;
+    height: 208px;
+    margin: 5px;
+    border: 1px solid #777;
+}
+
+.asideimg:hover {
+  border: 1px solid #ccc;
+}
+.aside2 {
+  text-align: left;
+  width: 20%;
+  margin-left: 7px;
+  margin-top: 18px;
+  padding: 5px;
+  float: left;
+  font-style: italic;
+  background-color: #fadb87;
+  font-size: 15px;
+  color: #555555;
+}
+.aside2naslov {
+    text-align: center;
+}
+.a2 {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 5px #555555;
+}
+.a2:hover {
+    color: gray;
+}
+
+.fakeform {
+    margin: 0 auto;
+    max-width: 20em;
+    background-color: #f4f4f4;
+    color: #555555;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 30px; 
+    float: center;
+    text-align: center;
+}
+
+.bodygalerija {
+    margin: 0 auto;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    background-image: url(https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    
+}
+
+.bodynovice {
+     margin: 0 auto;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    background-image: url(https://images.pexels.com/photos/1577882/pexels-photo-1577882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.container {
+  position: relative;
+  display: none;
+}
+
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.header2 {
+   text-align: center;
+    background-color: white;
+    padding: 2px;
+    text-shadow: 2px 2px 5px white;
+    font-size: 15px;
+    border: 1px bold black;
+    border-radius: 5px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spletna stran Koala</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="Klemen Mavčič" content="Koala">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="koala.css">
+        <link rel="shortcut icon" href="https://cdn.iconscout.com/icon/free/png-512/koala-bear-lazy-honey-wild-animal-33903.png"/>  
+    </head>
+    <body class="bodygalerija">
+        <center><div class="header">
+        <h1 class="glavninaslov">Koala - galerija</h1>
+        <p>Klemen Mavčič</p>
+        </div></center>
+        <ul>
+            <li><a href="koala.html">Opis</a></li>
+            <li><a href="koala1.html">Novice</a></li>
+            <li><a href="koala2.html">Galerija</a></li>
+        </ul>
+        <br>
+        <br>
+        <div style="text-align:center" class="header2">
+  <h2>Galerija koal</h2>
+  <p>Za povečavo kliknite na slike:</p>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <img src="https://www.zurnal24.si/media/img/97/4b/7ac884ff37f0fdc3d2a8.jpeg" alt="Koala" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://www.zurnal24.si/media/img/75/b4/badd736ccdd81a1a1acc.jpeg" alt="Koala" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://www.zurnal24.si/media/img/75/dd/3131f2348f2df840012d.jpeg" alt="Koala" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://www.zurnal24.si/media/img/e9/d7/277d5f52be67eb455f8f.jpeg" alt="Koala" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+        
+        
+        
+<br>
+        
+        
+        <footer>
+        <div class="fakeform">
+        <form action="https://webhook.site/9eadc1d6-b6b0-47ba-a1f2-99650160b771" method="POST">
+        <legend>Prosimo vas za vpis v spletno stran:</legend>
+        <br>
+      <i class="fas fa-signature"></i>&nbsp;<label for="ime">Ime</label>
+      <br>
+      <input type="text" id="user_name" name="user_name" placeholder="Vnesi svoje ime...">
+      <br>
+      <i class="fas fa-signature"></i>&nbsp;<label for="priimek">Priimek</label>
+      <br>
+      <input type="text" id="user_surname" name="user_surname" placeholder="Vnesi svoj priimek...">
+      <br>
+      <i class="fas fa-envelope"></i>&nbsp;<label for="email">E-naslov</label>
+      <br>
+      <input type="email" id="email" name="email" placeholder="Vnesi svoj poštni naslov...">
+      <br>
+      <i class="fas fa-calendar-week"></i>&nbsp;<label for="date">Datum</label>
+      <br>
+      <input type="date" id="date" name="date">
+      <br>
+      <i class="fas fa-key"></i>&nbsp;<label for="user_name">Geslo</label>
+      <br>
+      <input type="password" id="geslo" name="geslo" placeholder="Vnesi svoje geslo...">
+      <br><br>
+      <input type="submit" value="Pošlji">
+      <br><hr>
+      <button onclick="window.print()">Natisni si stran</button>
+            
+        </form>
+        </div>
+        <br><br>
+        </footer>
+        
+        
+</body>
+</html>
